@@ -53,7 +53,7 @@ Les données subissent les transformations suivantes :
 
 1. **Cloner le dépôt** :
    ```bash
-   git clone [URL_DU_DEPOT]
+   git clone https://github.com/Darys21/classification-abstracts.git
    cd Projet_classification
    ```
 

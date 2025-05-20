@@ -16,7 +16,6 @@ __pycache__/
 .env
 
 # Fichiers de données volumineux
-*.pt
 *.pth
 *.h5
 *.pkl
