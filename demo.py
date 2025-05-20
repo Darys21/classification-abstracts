@@ -5,13 +5,13 @@ import os
 
 # --- Configuration ---
 MODEL_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'model')
-MODEL_SAVE_PATH = os.path.join(MODEL_DIR, 'abstract_classifier.pt')  # Chemin absolu vers le modèle
+MODEL_SAVE_PATH = os.path.join(MODEL_DIR, 'abstract_classifier.pt')  # Chemin  vers le modèle
 print(f"Tentative de chargement du modèle depuis : {MODEL_SAVE_PATH}")
 print(f"Le fichier existe : {os.path.exists(MODEL_SAVE_PATH)}")
-TOKENIZER_NAME = 'bert-base-uncased'  # Doit être le même tokenizer que pour l'entraînement
-NUM_LABELS = 6  # Nombre de classes sur lesquelles le modèle a été entraîné
-MAX_LENGTH = 512  # Même valeur que celle utilisée pour l'entraînement
-DEVICE = torch.device("cpu")  # Forcer l'utilisation du CPU pour le déploiement
+TOKENIZER_NAME = 'bert-base-uncased'  
+NUM_LABELS = 6  
+MAX_LENGTH = 512  
+DEVICE = torch.device("cpu")  
 
 # Noms de classes pour l'affichage
 CLASS_NAMES = ['Computer Science', 'Physics', 'Mathematics', 'Statistics', 'Quantitative Biology', 'Quantitative Finance']
