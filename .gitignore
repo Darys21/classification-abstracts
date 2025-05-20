@@ -1,0 +1,38 @@
+.qodo
+.venv
+# Environnement virtuel
+venv/
+.venv/
+env/
+ENV/
+
+# Fichiers Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Fichiers de configuration
+.DS_Store
+.env
+
+# Fichiers de données volumineux
+*.pt
+*.pth
+*.h5
+*.pkl
+*.csv
+*.data
+*.dat
+*.db
+*.sqlite
+*.sqlite3
+
+# Fichiers de cache
+.ipynb_checkpoints
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Fichiers spécifiques
+data/
